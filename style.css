@@ -1,0 +1,142 @@
+body{
+  margin: 0%;
+}
+header{
+  height: 50px;
+  background-color:rgba(000, 000, 000, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.header-left{
+  float: left;
+  line-height: 50%;
+  font-size: 15px;
+  color: #FFF;
+  font-family: serif;
+}
+.header-right{
+  float: right;
+  line-height: 50%;
+}
+.header-right ul{
+  list-style: none;
+  margin: 0%;
+}
+.header-right li{
+  float: left;
+}
+.header-right a{
+  text-decoration: none;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.3);
+  line-height: 50px;
+  padding: 0 15px;
+  color: #FFF;
+}
+.header-right a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.top-wrapper{
+  height: 500px;
+}
+.top-wrapper-title{
+  position: absolute;
+  top: 200px;
+  left: 47%;
+  background-color: #540606;
+  color: #FFF;
+  padding: 10px;
+  font-family: serif;
+}
+.top-wrapper ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100%;
+  height: 500px;
+}
+.slide{
+  display: none;
+}
+.active{
+  display: block;
+}
+.index-btn-wrapper{
+  padding-left: 47%;
+}
+.index-btn {
+  display: inline-block;
+  color: #4e90af;
+  background-color: #e0f5ff;
+  width: 40px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.index-btn:hover {
+  color: #fff;
+  background-color: #5cabd0;
+}
+.container{
+  width: 1000px;
+  margin:0 auto;
+}
+.bottom-wrapper{
+  margin-top: 30px;
+  position: relative;
+}
+.title{
+  position: absolute;
+  background-color: #540606;
+  color: #FFF;
+  padding: 10px;
+  font-family: serif;
+}
+.menu ul{
+  display: inline-block;
+  list-style: none;
+}
+.menu li{
+  width: 400px;
+  float: left;
+  font-size: 30px;
+  border-bottom: 1px dashed #000;
+  margin-right: 50px;
+}
+footer{
+  background-color:#000;
+  height: 300px;
+}
+.footer-left{
+  font-size: 30px;
+  float: left;
+  font-family: serif;
+  color: #FFF;
+}
+.footer-right{
+  float: right;
+}
+.footer-right ul{
+  list-style: none;
+}
+.footer-right li{
+  float: left;
+  font-size: 35px;
+}
+.footer-right a{
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.3);
+  line-height: 50px;
+  padding: 0 15px;
+}
+.footer-right a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+  
